@@ -1,0 +1,24 @@
+:root{
+    --branco:#ffffff;
+    --cinza-nivel1:#f7f7f7;
+    --cinza-nivel2:#bcbcbc;
+    --cinza-nivel3:#737380;
+    --creme:#FCF0E3;
+    --vermelho-coral:#FC7071;
+    --vermelho-coral-fraco:#FF9D9E;
+    --verde:#36d6ad;
+    --azul:#3772ff;
+}
+.botao{
+    background-color: var(--vermelho-coral);
+    border-radius: 6px;
+    color: var(--branco);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    height: 40px;
+    width: 180px;
+    text-align: center;
+}
+.botao:hover{
+    background-color: var(--vermelho-coral-fraco);
+}
