@@ -8,15 +8,18 @@
     --vermelho-coral-fraco:#FF9D9E;
     --verde:#36d6ad;
     --azul:#3772ff;
+
+    --poppins:'Poppins', sans-serif;
 }
 .botao{
     background-color: var(--vermelho-coral);
     border-radius: 6px;
     color: var(--branco);
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--poppins);
     font-weight: 600;
     height: 40px;
     width: 180px;
+    display: block;
     text-align: center;
 }
 .botao:hover{
