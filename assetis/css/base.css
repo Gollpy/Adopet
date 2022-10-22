@@ -10,6 +10,7 @@
     --azul:#3772ff;
 
     --poppins:'Poppins', sans-serif;
+    --IBM-Plex-Sans: 'IBM Plex Sans', sans-serif;
 }
 .botao{
     background-color: var(--vermelho-coral);
@@ -19,8 +20,10 @@
     font-weight: 600;
     height: 40px;
     width: 180px;
-    display: block;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
 }
 .botao:hover{
     background-color: var(--vermelho-coral-fraco);
