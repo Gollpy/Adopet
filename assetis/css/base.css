@@ -15,16 +15,17 @@
 .botao{
     background-color: var(--vermelho-coral);
     border-radius: 6px;
+    box-sizing: border-box;
     color: var(--branco);
     font-family: var(--poppins);
     font-weight: 600;
     height: 40px;
-    width: 180px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
+    width: 280px;
+    display: inline-block;
+    text-align: center;
+    padding: 11px 29px;
 }
+
 .botao:hover{
     background-color: var(--vermelho-coral-fraco);
 }
