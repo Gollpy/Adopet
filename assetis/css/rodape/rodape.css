@@ -1,0 +1,33 @@
+.rodape > .container{
+    width: 100vw;
+    height: 399px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+    background: url(../../img/ilustracao/Ilustracao_2.svg) no-repeat calc(50% - 18px) top / 247.3378448486328px;
+}
+
+.rodape__container-creditos{
+    text-align: center;
+    background: var(--verde);
+    height: 104px;
+    width: 100%;
+}
+
+.rodape__creditos{
+    color: var(--branco);
+    font-family: var(--poppins);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 40px 0;
+}
+
+@media screen and (min-height: 922px) {
+    .rodape{
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    }
+}

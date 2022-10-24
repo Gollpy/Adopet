@@ -1,0 +1,25 @@
+.secao__container-recepcao{
+    margin: 24px 0 24px 0;
+}
+
+.secao__recepcao{
+    color: var(--branco);
+    font-family:  var(--IBM-Plex-Sans);
+    font-weight: 500;
+    font-size: 26px;
+    margin: 0 0 16px 0;
+    height: 46px;
+}
+
+.secao__container-recepcao > .container{
+    width: 248px;
+    height: 72px;
+}
+
+.secao__recepcao__descricao{
+    color: var(--branco);
+    font-family: var(--poppins);
+    font-weight:400;
+    font-size: 16;
+    line-height: 24px;
+}

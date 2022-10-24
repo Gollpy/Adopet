@@ -1,0 +1,30 @@
+/*Poppins*/
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fontes/poppins/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fontes/poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins,';
+    src: url(../fontes/poppins/Poppins-Medium.ttf);
+}
+/*IBM Plex Sans*/
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url(../fontes/IBMPlexSans/IBMPlexSans-Light.ttf);
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url(../fontes/IBMPlexSans/IBMPlexSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url(../fontes/IBMPlexSans/IBMPlexSans-Medium.ttf);
+}

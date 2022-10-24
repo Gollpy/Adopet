@@ -9,7 +9,7 @@
     --verde:#36d6ad;
     --azul:#3772ff;
 
-    --poppins:'Poppins', sans-serif;
+    --poppins: 'Poppins', sans-serif;
     --IBM-Plex-Sans: 'IBM Plex Sans', sans-serif;
 }
 .botao{
@@ -19,6 +19,7 @@
     color: var(--branco);
     font-family: var(--poppins);
     font-weight: 600;
+    text-decoration: none;
     height: 40px;
     width: 180px;
     display: inline-block;

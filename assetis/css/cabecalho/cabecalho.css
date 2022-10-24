@@ -1,10 +1,10 @@
 .cabecalho{
-    height: 93.86px;
-    width: 100vw;
     display: inline-block;
 }
 
-.cabecalho .container{
+.cabecalho > .container{
+    height: 93.86px;
+    width: 100vw;
     display: flex;
 }
 
