@@ -1,7 +1,15 @@
 body{
-    background: url(../img/ilustracao/Forma_1.svg) no-repeat top left / 352.11px 295px, 
+    background: url(../img/ilustracao/Forma_1.svg) no-repeat top left / 352.11px, 
                 url(../img/ilustracao/Forma_2.png) no-repeat calc(100% + 14px) 200px /84.03px 415px;
     background-color: var(--azul);
     width: 100vw;
     height: 900px;
+}
+
+@media screen and (min-width: 768px) {
+    body{    
+        background: url(../img/ilustracao/Forma_1.svg) no-repeat top left / 559.8px, 
+                    url(../img/ilustracao/Forma_2.png) no-repeat right center / 134.44960021972656px 664px;
+        background-color: var(--azul);
+    }
 }
