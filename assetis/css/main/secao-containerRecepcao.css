@@ -23,6 +23,9 @@
     font-size: 16;
     line-height: 24px;
 }
+.secao__recepcao__descricao .texto-2{
+    display: none;
+}
 
 @media screen and (min-width: 463px) {
     .secao__container-recepcao > .container{
@@ -45,5 +48,13 @@
     .secao__recepcao__descricao{
         font-size: 18;
         line-height: 26px;
+    }
+
+    .texto-1{
+        display: none;
+    }
+
+    .secao__recepcao__descricao .texto-2{
+        display: inline;
     }
 }

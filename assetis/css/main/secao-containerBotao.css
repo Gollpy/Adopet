@@ -14,9 +14,10 @@
 @media screen and (min-width: 768px) {
     .botao{
         padding: 12px 0;
-        width: 100vw;
+        width: 37vw;
         height: 48px;
         max-width: 362px;
         min-width: 344px;
+        line-height: 24px;
     }
 }
