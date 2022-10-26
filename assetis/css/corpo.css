@@ -6,6 +6,7 @@ body{
     height: 900px;
 }
 
+
 @media screen and (min-width: 768px) {
     body{    
         background: url(../img/ilustracao/Forma_1.svg) no-repeat top left / 559.8px, 
