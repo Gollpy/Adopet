@@ -4,7 +4,7 @@
 
 .cabecalho > .container{
     height: 93.86px;
-    width: 100vw;
+    width: 100%;
     display: flex;
 }
 
