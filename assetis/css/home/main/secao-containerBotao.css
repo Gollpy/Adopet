@@ -21,3 +21,9 @@
         line-height: 24px;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .secao__container-botao > .container{
+        margin: 0 0 16px 0;
+    }
+}

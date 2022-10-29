@@ -11,3 +11,9 @@
         width: 251.59px;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .secao__logo{
+        width: 259.71px;
+    }
+}

@@ -27,6 +27,10 @@
     display: none;
 }
 
+.secao__recepcao__descricao .texto-2 br{
+    display: none;
+}
+
 @media screen and (min-width: 463px) {
     .secao__container-recepcao > .container{
         width: 318.953px;
@@ -42,7 +46,6 @@
         font-family:  var(--poppins);
         font-size: 28px;
         margin: 0 0 24px 0;
-        height: 46px;
     }
 
     .secao__recepcao__descricao{
@@ -58,3 +61,19 @@
         display: inline;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .secao__container-recepcao{
+        margin: 40px 0 25px 0;
+    }
+
+    .secao__container-recepcao > .container{
+        width: 488px;
+        height: 52px;
+    }
+
+    .secao__recepcao__descricao .texto-2 br{
+        display: initial;
+    }
+}
+

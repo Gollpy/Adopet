@@ -15,3 +15,9 @@
         margin-top: 170px;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .secao > .container{
+        margin-top: 36.14px;
+    }
+}

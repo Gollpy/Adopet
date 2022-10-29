@@ -1,5 +1,6 @@
 .cabecalho{
     display: inline-block;
+    width: 100%;
 }
 
 .cabecalho > .container{
@@ -65,5 +66,22 @@
     .cabecalho__container-icone--mensagens{
         margin-top: 70px;
         margin-left: 68.8px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .cabecalho__container-icone--logo{
+        margin-left: 160px;
+    }
+
+    .cabecalho__container-icone--casa{
+        margin-top: 63px;
+        margin-left: 48px;
+
+    }
+
+    .cabecalho__container-icone--mensagens{
+        margin-top: 67px;
+        margin-left: 32.8px;
     }
 }
