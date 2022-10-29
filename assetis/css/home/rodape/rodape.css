@@ -44,7 +44,7 @@
     .rodape > .container{
         height: 485px;
     
-        background: url(../../../img/ilustracao/Ilustracao_2.svg) no-repeat calc(50% - 18px) top / 338.28px;
+        background: url(../../../../img/ilustracao/Ilustracao_2.svg) no-repeat calc(50% - 18px) top / 338.28px;
     }
 
     @media screen and (min-height: 1176px) {
