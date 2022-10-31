@@ -1,0 +1,87 @@
+.cabecalho{
+    display: inline-block;
+    width: 100%;
+}
+
+.cabecalho > .container{
+    height: 93.86px;
+    width: 100%;
+    display: flex;
+}
+
+.cabecalho__container-icone{
+    display:inline-block;
+    margin: 0 58.61px 0 0;
+}
+
+.cabecalho__container-icone--logo{
+    display: none;
+}
+
+.cabecalho__logo{
+
+}
+
+.cabecalho__container-icone--casa{
+    margin-top: 48px;
+    margin-left: 48px;
+}
+
+.cabecalho__casa{
+    width: 19.2px;
+    height: 23px;
+}
+
+.cabecalho__container-icone--mensagens{
+    margin-top: 50.14px;
+}
+
+.cabecalho__mensagens{
+    width: 23.14px;
+    height: 18.86px;
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho__container-icone{
+        margin: 0 0 0 0;
+    }
+
+    .cabecalho__container-icone--logo{
+        display: block;
+        margin-top: 63px;
+        margin-left: 48px;
+    }
+
+    .cabecalho__logo{
+        width: 128px;
+        height: 30.86px;
+    }
+
+    .cabecalho__container-icone--casa{
+        margin-top: 67px;
+        margin-left: 65px;
+
+    }
+
+    .cabecalho__container-icone--mensagens{
+        margin-top: 70px;
+        margin-left: 68.8px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .cabecalho__container-icone--logo{
+        margin-left: 160px;
+    }
+
+    .cabecalho__container-icone--casa{
+        margin-top: 63px;
+        margin-left: 48px;
+
+    }
+
+    .cabecalho__container-icone--mensagens{
+        margin-top: 67px;
+        margin-left: 32.8px;
+    }
+}
