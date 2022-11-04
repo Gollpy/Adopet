@@ -1,0 +1,9 @@
+.secao{
+    margin-top: 62px;
+}
+
+.secao > .container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}

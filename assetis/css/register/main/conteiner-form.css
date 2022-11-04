@@ -1,0 +1,51 @@
+.continer-form{
+    text-align: center;
+    font-family: var(--poppins);
+}
+
+
+.directiom-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-etiqueta{
+    color: var(--cinza-nivel3);
+    margin-bottom: 4px;
+}
+
+.container-email{
+    margin-bottom: 24px;
+}
+
+
+.campoDeTexto{
+    background-color: var(--cinza-nivel1);
+    width: 312px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    box-shadow:  0px 2px 2px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+.container-senha{
+    margin-bottom: 24px;
+}
+
+.link-supoteDeSenha{
+    font-family: var(--poppins);
+    color: var(--vermelho-coral);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 8px;
+}
+
+.form-enviar{
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}

@@ -12,6 +12,10 @@
     <link rel="stylesheet" href="./assetis/css/reset.css">
     <link rel="stylesheet" href="./assetis/css/register/corpo.css">
     <link rel="stylesheet" href="./assetis/css/register/cabecalho/cabecalho.css">
+    <link rel="stylesheet" href="./assetis/css/register/main/secao.css">
+    <link rel="stylesheet" href="./assetis/css/register/main/secao-logoEdescricao.css">
+    <link rel="stylesheet" href="./assetis/css/register/main/conteiner-form.css">
+    <link rel="stylesheet" href="./assetis/css/register/rodape/rodape.css">
     <title>Adopet</title>
     <link rel="icon" href="./assetis/img/logo/logo_icone_azul.png">
 </head>
@@ -39,31 +43,38 @@
     <main>
         <section class="secao">
             <div class="container">
-                <div class="secao__container-logo container">
+                <div class="secao__container-logo">
                     <img class="secao__logo" src="./assetis/img/logo/Logo_azul.svg" alt="logo Adopet">
                 </div>
-                <div class="secao__container-recepcao container">
-                    <p>Já tem conta? Faça seu login:</p>
+                <div class="secao__container-descricao">
+                    <h1 class="descricao">Já tem conta? Faça seu login:</h1>
                 </div>
 
-                <div>
+                <div class="continer-form">
                     <form action="">
-                        <div>
-                            <label for=""></label>
-                            <input type="text">
+                        <div class="container-email directiom-column">
+                            <label class="form-etiqueta" for="email">Email</label>
+                            <input class="form-email campoDeTexto" type="email" id="email" placeholder="Insira seu email" required>
                         </div>
-                        <div>
-                            <label for=""></label>
-                            <input type="text">
-                            <a></a>
+                        <div class="container-senha directiom-column">
+                            <label class="form-etiqueta" for="senha">Senha</label>
+                            <input class="form-senha campoDeTexto" type="password" id="senha" placeholder="Insira sua senha" required>
+                            <a class="link-supoteDeSenha" href="#">Esqueci minha senha.</a>
                         </div>
-                        <div>
-                            
-                            <input type="text">
+                        <div class="container-botao">
+                            <input class="form-enviar botao" type="submit" value="Entrar">
                         </div>
                    </form>
                 </div>
             </div>
         </section>
     </main>
+
+    <footer class="rodape">
+        <div class="container">
+            <div class="rodape__container-creditos">
+                <p class="rodape__creditos">2022 - Desenvolvido por Alura.</p>
+            </div>
+        </div>
+    </footer>
 </body>
