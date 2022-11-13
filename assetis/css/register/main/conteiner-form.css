@@ -19,7 +19,6 @@
     margin-bottom: 24px;
 }
 
-
 .campoDeTexto{
     background-color: var(--cinza-nivel1);
     width: 312px;
@@ -32,6 +31,31 @@
 
 .container-senha{
     margin-bottom: 24px;
+}
+
+.container-senha .container{
+    display: grid;
+    justify-items: end;
+    align-items: center;
+}
+
+.form-senha{
+    width: ;
+}
+
+.form-senha, .container-visualizarSenha{
+    grid-area: 1 / 1 / 1 / 1;
+}
+
+.container-visualizarSenha{
+    margin-right: 16px;
+    width: 19px;
+    height: 19px;
+}
+
+.material-symbols-rounded:hover{
+    cursor: default;
+
 }
 
 .link-supoteDeSenha{

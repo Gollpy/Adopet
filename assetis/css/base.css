@@ -29,3 +29,13 @@
 .botao:hover{
     background-color: var(--vermelho-coral-fraco);
 }
+
+.material-symbols-rounded {
+    font-size: 18px;
+    color: #999999;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 500,
+  'GRAD' ,
+  'opsz' 20,
+}

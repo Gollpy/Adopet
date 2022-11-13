@@ -6,3 +6,12 @@ body{
     width: 100%;
     height: 100vh;
 }
+
+@media screen and (min-width: 768px) {
+    body{    
+        background: url(../../img/ilustracao/Patas2.svg) no-repeat top right / 292px,
+                    url(../../img/ilustracao/Forma_1.svg) no-repeat top left / 559.8px, 
+                    url(../../img/ilustracao/Forma_2.png) no-repeat right 250px / 134.44960021972656px 664px;
+        background-color: var(--branco);
+    }
+}
