@@ -11,6 +11,9 @@
 
     --poppins: 'Poppins', sans-serif;
     --IBM-Plex-Sans: 'IBM Plex Sans', sans-serif;
+    
+    --tamanho-da-fonte-nivel1: 16px;
+    --tamanho-da-fonte-nivel2: 18px;
 }
 .botao{
     background-color: var(--vermelho-coral);
