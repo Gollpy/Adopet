@@ -1,36 +1,23 @@
 .rodape{
-    width: 100%;
-    margin-top: 10px;
-}
-
-.rodape > .container{
-    width: 100%;
-    height: 399px;
     display: flex;
-    flex-direction: column;
-    justify-content: end;
-
-    background: url(../../img/ilustracao/Ilustracao_2.svg) no-repeat calc(50% - 18px) top / 247.3378448486328px;
-}
-
-.rodape__container-creditos{
-    text-align: center;
+    justify-content: center;
+    align-items: center;
     background: var(--verde);
     height: 104px;
     width: 100%;
 }
 
 .rodape__creditos{
+    display: inline-block;
     color: var(--branco);
     font-family: var(--poppins);
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    padding: 40px 0;
 }
 
 @media screen and (max-width: 767px) {
-    @media screen and (min-height: 967px) {
+    @media screen and (min-height: 1071px) {
         .rodape{
             position: fixed;
             bottom: 0;
@@ -41,12 +28,6 @@
 }
 
 @media screen and (min-width: 768px) {
-    .rodape > .container{
-        height: 485px;
-    
-        background: url(../../../../img/ilustracao/Ilustracao_2.svg) no-repeat calc(50% - 18px) top / 338.28px;
-    }
-
     @media screen and (min-height: 1176px) {
         .rodape{
             position: fixed;
@@ -57,15 +38,11 @@
 }
 
 @media screen and (min-width: 1440px) {
-    .rodape__container-creditos{
+    .rodape{
         height: 80px;
     }
-
-    .rodape__creditos{
-        padding: 30px 0 26px 0;
-    }
-
-    @media screen and (min-height: 1010px) {
+    
+    @media screen and (min-height: 1047px) {
         .rodape{
             position: fixed;
             bottom: 0;

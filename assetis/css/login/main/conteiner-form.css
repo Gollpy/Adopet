@@ -98,3 +98,14 @@
         width: 164px;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .form-botao-enviar{
+        font-weight: 700;
+        width: 174px;
+    }
+
+    .form-senha{
+        width: 362px;
+    }
+}

@@ -15,3 +15,12 @@ body{
         background-color: var(--branco);
     }
 }
+
+@media screen and (min-width: 1440px) {
+    body{    
+        background: url(../../img/ilustracao/Patas2.svg) no-repeat top right / 317.67px,
+                    url(../../img/ilustracao/Forma_1.svg) no-repeat top left / 559.8px, 
+                    url(../../img/ilustracao/Forma_2.png) no-repeat right 215px / 134.44960021972656px 664px;
+        background-color: var(--branco);
+    }
+}

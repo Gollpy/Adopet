@@ -1,5 +1,6 @@
 .secao{
     margin-top: 62px;
+    margin-bottom: 409px;
 }
 
 .secao > .container{
@@ -11,5 +12,11 @@
 @media screen and (min-width: 768px) {
     .secao{
         margin-top: 150px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .secao{
+        margin-top: 36.14px;
     }
 }
