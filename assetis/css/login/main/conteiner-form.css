@@ -22,7 +22,6 @@
 
 .campoDeTexto{
     background-color: var(--cinza-nivel1);
-    width: 312px;
     height: 40px;
     border: none;
     border-radius: 6px;
@@ -41,16 +40,30 @@
     width: auto;
 }
 
+.form-senha{
+    box-sizing: border-box;
+    padding-right: 43px;
+    height: 42px;
+    width: 349px;
+}
+
 .form-senha, .container-visualizarSenha{
     grid-area: 1 / 1 / 1 / 1;
 }
 
-.container-visualizarSenha{
+/*  -trecho antigo-  
+.container-visualizarSenha {
     margin-right: 16px;
     width: 19px;
     height: 19px;
 }
+*/
 
+.visualizarSenha{
+    line-height: 32px;
+    width: 40px;
+    height: 35px;
+}
 .material-symbols-rounded:hover{
     cursor: default;
 
@@ -70,6 +83,20 @@
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
+}
+.campoDeTexto{
+    padding-right: -50px;
+}
+@media screen and (min-width: 320px) {
+    .campoDeTexto{
+        min-width: 275px;
+    }
+}
+
+@media screen and (min-width: 360px) {
+    .campoDeTexto{
+        min-width: 312px;
+    }
 }
 
 @media screen and (min-width: 768px) {
