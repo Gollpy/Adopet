@@ -43,6 +43,7 @@
 .form-senha{
     box-sizing: border-box;
     padding-right: 43px;
+    padding-left: 43px;
     height: 42px;
     width: 349px;
 }
@@ -117,6 +118,8 @@
         width: calc(40.7916%);
         max-width: 552px;
         min-width: 344px;
+        padding-right: 43px;
+        padding-left: 43px;
     }
 
     .form-botao-enviar{
