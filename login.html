@@ -60,9 +60,9 @@
                         <div class="container-senha">
                             <label class="form-etiqueta" for="password">Senha</label>
                             <div class="container">
-                                <input class="form-senha campoDeTexto" type="password" id="password" placeholder="Insira sua senha" required>
+                                <input class="form-senha campoDeTexto" type="password" id="password" autocomplete="" placeholder="Insira sua senha" required>
                                 <div class="container-visualizarSenha">
-                                    <span class="visualizarSenha material-symbols-rounded">
+                                    <span class="visualizarSenha material-symbols-rounded" onclick="ver();"> <!--onclick="ver();"-->
                                         visibility_off
                                     </span>
                                 </div>
@@ -82,5 +82,26 @@
         <p class="rodape__creditos">2022 - Desenvolvido por Alura.</p>
     </footer>
 
-    <script href='./assetis/js/escoderSenha.js'></script>
+    <script href='./assetis/js/escoderSenha.js'>
+
+        
+        
+            const campoSenha = document.querySelector('#password');
+    const visualizarSenha = document.querySelector('.visualizarSenha');
+
+    function ver () {
+        if (campoSenha.type === 'password'){
+            visualizarSenha.innerHTML = 'visibility';
+            campoSenha.type = 'text';
+
+        } else {
+            visualizarSenha.innerHTML = 'visibility_off';
+            campoSenha.type = 'password';
+
+        }
+    }
+
+        
+
+    </script>
 </body>
