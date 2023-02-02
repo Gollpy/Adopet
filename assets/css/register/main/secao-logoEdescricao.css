@@ -1,0 +1,44 @@
+.secao__container-logo{
+    margin-bottom: 56.64px;
+}
+
+.secao__logo{
+    width: 142.5399932861328px;
+}
+
+.secao__container-descricao{
+    margin-bottom: 42px;
+}
+
+.secao__container-descricao > .descricao{
+    color: var(--azul);
+    font-size: 16px;
+    font-family: var(--poppins);
+    line-height: 21px;
+    font-weight: 400;
+}
+
+
+@media screen and (min-width: 768px) {
+    .secao__container-logo{
+        margin-bottom: 40px;
+    }
+    
+    .secao__logo{
+        width: 251.59px;
+    }
+
+    .secao__container-descricao{
+        margin-bottom: 40px;
+    }
+
+    .secao__container-descricao > .descricao{
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .secao__logo{
+        width: 259.71px;
+    }
+}

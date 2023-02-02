@@ -16,6 +16,6 @@
 
 document.querySelector('.visualizarSenha').onclick = function () {
     mostraOuEsconderSenha();
-}                   
+}
 
 
