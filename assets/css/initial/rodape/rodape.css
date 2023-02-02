@@ -30,6 +30,9 @@
 }
 
 @media screen and (max-width: 767px) {
+    body{
+        position: fixed;
+    }
     @media screen and (min-height: 919px) { /*921px*/
         .rodape{
             position: fixed;
