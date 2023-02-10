@@ -16,7 +16,7 @@
     line-height: 24px;
 }
 
-@media screen and (max-width: 767px) {
+/*@media screen and (max-width: 767px) {
     @media screen and (min-height: 1071px) {
         .rodape{
             position: fixed;
@@ -25,9 +25,10 @@
         }
     }
 
-}
 
-@media screen and (min-width: 768px) {
+}*/
+
+/* @media screen and (min-width: 768px) {
     @media screen and (min-height: 1176px) {
         .rodape{
             position: fixed;
@@ -35,21 +36,21 @@
             left: 0;
         }
     }
-}
+} */
 
 @media screen and (min-width: 1440px) {
     .rodape{
         height: 80px;
     }
     
-    @media screen and (min-height: 1047px) {
+    /* @media screen and (min-height: 1047px) {
         .rodape{
             position: fixed;
             bottom: 0;
             left: 0;
         }
 
-    }
+    } */
 
 }
 

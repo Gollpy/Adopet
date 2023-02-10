@@ -30,7 +30,7 @@
 }
 /*
 @media screen and (max-width: 767px) {
-    @media screen and (min-height: 919px) { 921px
+    @media screen and (min-height: 919px) {
         .rodape{
             position: fixed;
             bottom: 0;
@@ -38,7 +38,7 @@
         }
     }
 
-}
+}*/
 
 @media screen and (min-width: 768px) {
     .rodape > .container{
@@ -47,13 +47,13 @@
         background: url(../../../img/ilustracao/Ilustracao_2.svg) no-repeat calc(50% - 18px) top / 338.28px;
     }
 
-    @media screen and (min-height: 1176px) {
+    /*@media screen and (min-height: 1176px) {
         .rodape{
             position: fixed;
             bottom: 0;
             left: 0;
         }
-    }
+    }*/
 }
 
 @media screen and (min-width: 1440px) {
@@ -65,14 +65,14 @@
         padding: 30px 0 26px 0;
     }
 
-    @media screen and (min-height: 1010px) {
+    /*@media screen and (min-height: 1010px) {
         .rodape{
             position: fixed;
             bottom: 0;
             left: 0;
         }
 
-    }
+    }*/
 
 }
 
