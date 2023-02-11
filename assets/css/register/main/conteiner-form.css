@@ -29,6 +29,7 @@
     text-align: center;
 }
 
+
 .container-senha{
     margin-bottom: 24px;
 }
@@ -40,13 +41,13 @@
     width: auto;
 }
 
-.form-senha{
+/* .form-senha{
     box-sizing: border-box;
     padding-right: 43px;
     padding-left: 43px;
     height: 42px;
     width: 349px;
-}
+} */
 
 .form-senha, .container-visualizarSenha{
     grid-area: 1 / 1 / 1 / 1;
@@ -88,15 +89,18 @@
 .campoDeTexto{
     padding-right: -50px;
 }
+
 @media screen and (min-width: 320px) {
     .campoDeTexto{
-        min-width: 275px;
+        min-width: 255px;
+        padding-right: 35px;
+        padding-left: 35px;
     }
 }
 
 @media screen and (min-width: 360px) {
     .campoDeTexto{
-        min-width: 312px;
+        min-width: 265px;
     }
 }
 
@@ -108,6 +112,8 @@
 
     .campoDeTexto{
         min-width: 344px;
+        padding-right: 43px;
+        padding-left: 43px;
     }
 
     .container-email{
@@ -118,8 +124,14 @@
         width: calc(40.7916%);
         max-width: 552px;
         min-width: 344px;
+    }
+
+    .form-senha{
+        box-sizing: border-box;
         padding-right: 43px;
         padding-left: 43px;
+        height: 42px;
+        min-width: 300px;
     }
 
     .form-botao-enviar{
