@@ -51,7 +51,7 @@
                 </div>
 
                 <div class="continer-form">
-                    <form action="">
+                    <form action="" id="formulario">
                         <div class="container-email">
                             <label class="form-etiqueta" for="email">Email</label>
                             <input class="form-email campoDeTexto" type="email" id="email" placeholder="Insira seu email" required>
@@ -66,12 +66,17 @@
                                     </span>
                                 </div>
                             </div>
-                            <a class="link-supoteDeSenha" href="#">Esqueci minha senha.</a>
+                            <button type="button" class="link-supoteDeSenha abrir">Esqueci minha senha.</button>
                         </div>
                         <div class="container-botao">
                             <input class="form-botao-enviar botao" type="submit" value="Entrar">
                         </div>
                    </form>
+                   <section class="section-recuperar-senha" style="display: none;">
+                    <div class="container">
+                        <button type="button" class="section-recuperar-senha__botao abrir botao">sair</button>
+                    </div>
+                </section>
                 </div>
             </div>
         </section>
@@ -80,7 +85,8 @@
     <footer class="rodape">
         <p class="rodape__creditos">2022 - Desenvolvido por Alura.</p>
     </footer>
+
     <script src="./js/visualizarSenha.js"></script>
-    <script src="./js/rodapeSempreEmBaixo.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>
