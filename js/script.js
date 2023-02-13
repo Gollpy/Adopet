@@ -9,13 +9,13 @@ function footerSempreEmBaixo () {
 function janelaRecuperarSenha () {
     const aa = document.querySelectorAll('.abrir');
     const bb = document.querySelector('.section-recuperar-senha');
+    const styleDisplay = bb.style;
     aa.forEach(aa => {
-        aa.addEventListener('click', (poram) => {
-            const styleDisplay = bb.style.display;
-            if (styleDisplay === 'none'){
-                bb.style.display = 'flex';
+        aa.addEventListener('click', () => {
+            if (styleDisplay.display === 'none'){
+                styleDisplay.display = 'flex';
             } else {
-                bb.style.display = 'none';
+                styleDisplay.display = 'none';
             };
         });
     })
@@ -23,3 +23,18 @@ function janelaRecuperarSenha () {
 
 footerSempreEmBaixo();
 janelaRecuperarSenha();
+
+// function janelaRecuperarSenha () {
+//     const aa = document.querySelectorAll('.abrir');
+//     const bb = document.querySelector('.section-recuperar-senha');
+//     aa.forEach(aa => {
+//         aa.addEventListener('click', (poram) => {
+//             const styleDisplay = bb.style.display;
+//             if (styleDisplay === 'none'){
+//                 bb.style.display = 'flex';
+//             } else {
+//                 bb.style.display = 'none';
+//             };
+//         });
+//     })
+// }
