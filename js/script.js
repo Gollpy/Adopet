@@ -5,24 +5,7 @@ function footerSempreEmBaixo () {
         footer.style.cssText = "position:fixed;bottom: 0;left: 0;";
     }
 }
-
-function janelaRecuperarSenha () {
-    const aa = document.querySelectorAll('.abrir');
-    const bb = document.querySelector('.section-recuperar-senha');
-    const styleDisplay = bb.style;
-    aa.forEach(aa => {
-        aa.addEventListener('click', () => {
-            if (styleDisplay.display === 'none'){
-                styleDisplay.display = 'flex';
-            } else {
-                styleDisplay.display = 'none';
-            };
-        });
-    })
-}
-
 footerSempreEmBaixo();
-janelaRecuperarSenha();
 
 // function janelaRecuperarSenha () {
 //     const aa = document.querySelectorAll('.abrir');
