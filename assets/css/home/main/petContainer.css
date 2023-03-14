@@ -1,0 +1,35 @@
+.pet-container {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 1;
+
+    height: 196px;
+    width: 360px;
+
+    margin-top: 16px;
+
+    background: var(--cinza-claro-fundo);
+
+}
+
+/*
+height: 196px;
+width: 360px;
+*/
+
+.pet-img {
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+
+    width: 148px;
+    height: 148px;
+
+    margin: 24px 0 24px 24px;
+}
+
+.text-container {
+    grid-column: 2 / 2;
+    grid-row: 1 / 1;
+
+    text-align: left;
+}
