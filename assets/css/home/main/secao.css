@@ -20,6 +20,17 @@
     .secao{
         margin-top: 150px;
     }
+
+    .pet-contato{
+        background: url(../../../img/icone/ícone_mensagem.svg) no-repeat left 1px;
+        display: inline-block;
+        height: 20px;
+        width: 115px;
+        line-height: 16px;
+        font-size: 10px;
+        text-align: end;
+        color: #737380;
+    }
 }
 
 @media screen and (min-width: 1440px) {
