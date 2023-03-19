@@ -7,30 +7,26 @@
 
 .pet-contato{
     background: url(../../../img/icone/ícone_mensagem.svg) no-repeat left 1px;
-    display: inline-block;
+    display: flex ;
     height: 20px;
-    width: 115px;
     line-height: 16px;
     font-size: 10px;
-    text-align: end;
     color: #737380;
+    padding-left: 24px;
 }
+
+/*@media screen and (min-width: 768px) {
+    .pet-contato{
+        width: 135px;
+
+    }
+}*/
 
 @media screen and (min-width: 768px) {
     .secao{
         margin-top: 150px;
     }
 
-    .pet-contato{
-        background: url(../../../img/icone/ícone_mensagem.svg) no-repeat left 1px;
-        display: inline-block;
-        height: 20px;
-        width: 115px;
-        line-height: 16px;
-        font-size: 10px;
-        text-align: end;
-        color: #737380;
-    }
 }
 
 @media screen and (min-width: 1440px) {
