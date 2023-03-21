@@ -40,7 +40,36 @@
     grid-column: 2 / 2;
     grid-row: 1 / 1;
 
+    margin: 24px 0 24px 14px;
+
     text-align: left;
+    font-family: var(--poppins);
+}
+
+.pet-nome {
+    color: var(--azul);
+    font-size: 16px;
+    font-weight:600;
+}
+
+.pet-descricao {
+    color: var(--cinza-nivel3);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-top: 8px;
+
+}
+
+.text-container .container{
+    color: var(--cinza-nivel3);
+    margin-top: 30px;
+}
+
+.pet-endereco {
+    font-size: 12px;
+    font-weight: 400;
+    padding-bottom: 8px;
 }
 
 .pet-contato{
