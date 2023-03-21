@@ -1,3 +1,17 @@
+.container-descricao {
+    width: 226px;
+    margin: 85px 0 15px 0;
+    line-height: 20px;
+}
+
+.container-descricao:first-child {
+    text-align: center;
+    font-size: 16px;
+    color: var(--azul);
+    font-family: var(--poppins);
+    font-weight: 400;
+}
+
 .pet-container {
     display: grid;
     grid-template-columns: repeat(2, 50%);
@@ -11,11 +25,6 @@
     background: var(--cinza-claro-fundo);
 
 }
-
-/*
-height: 196px;
-width: 360px;
-*/
 
 .pet-img {
     grid-column: 1 / 1;
@@ -32,4 +41,14 @@ width: 360px;
     grid-row: 1 / 1;
 
     text-align: left;
+}
+
+.pet-contato{
+    background: url(../../../img/icone/ícone_mensagem.svg) no-repeat left 1px;
+    display: flex;
+    height: 20px;
+    line-height: 16px;
+    font-size: 10px;
+    color: var(--cinza-nivel3);
+    padding-left: 24px;
 }

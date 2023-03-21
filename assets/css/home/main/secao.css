@@ -1,18 +1,13 @@
+.secao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .secao > .container{
     text-align: center;
     display: flex;
     flex-direction: column;
-}
-
-.pet-contato{
-    background: url(../../../img/icone/ícone_mensagem.svg) no-repeat left 1px;
-    display: flex ;
-    height: 20px;
-    line-height: 16px;
-    font-size: 10px;
-    color: #737380;
-    padding-left: 24px;
 }
 
 /*@media screen and (min-width: 768px) {
