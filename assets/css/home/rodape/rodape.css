@@ -1,19 +1,33 @@
 .rodape{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
     background: var(--verde);
-    height: 104px;
     width: 100%;
+}
+.rodape > .container{
+    height: 100px;
 }
 
 .rodape__creditos{
-    display: inline-block;
+    display: block;
     color: var(--branco);
     font-family: var(--poppins);
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    padding-top: 35px;
+    text-align: center;
+}
+
+@media screen and (min-width: 1068px){
+    .rodape > .container{
+        height: 80px;
+    }
+    .rodape__creditos{
+        padding-top: 28px;
+    }
+}
+@media screen and (min-width: 1440px) {
+
 }
 
 /* @media screen and (max-width: 767px) {
