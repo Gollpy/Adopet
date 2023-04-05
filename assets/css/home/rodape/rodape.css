@@ -2,6 +2,7 @@
     display: block;
     background: var(--verde);
     width: 100%;
+
 }
 .rodape > .container{
     height: 100px;

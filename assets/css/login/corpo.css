@@ -4,10 +4,10 @@ body{
                 url(../../img/ilustracao/Forma_2rotate180.png) no-repeat left 368px /84.03px 415px;
     background-color: var(--branco);
     width: 100%;
-    height: 100%;
-    display: block;
-    /* flex-direction: column;
-    justify-content: space-between; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
 }
 

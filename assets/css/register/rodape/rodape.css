@@ -1,10 +1,11 @@
-.rodape{
+.rodape .container{
     display: flex;
     justify-content: center;
     align-items: center;
     background: var(--verde);
     height: 104px;
     width: 100%;
+
 }
 
 .rodape__creditos{
