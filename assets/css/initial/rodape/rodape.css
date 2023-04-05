@@ -14,8 +14,8 @@
 }
 
 .rodape__container-creditos{
-    text-align: center;
     background: var(--verde);
+    text-align: center;
     height: 104px;
     width: 100%;
 }

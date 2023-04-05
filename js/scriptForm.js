@@ -30,35 +30,3 @@ function janelaRecuperarSenha () {
 
 janelaRecuperarSenha();
 mostraEsconderSenha();
-
-// lixo--->
-//document.querySelectorAll('.form-senha')[0].nextElementSibling.querySelector('.visualizarSenha')
-// let visualizarSenha = querySelector('.visualizarSenha');
-/*
-function mostraOuEsconderSenha () {
-    const campoSenha = document.querySelector('#password');
-    const visualizarSenha = document.querySelector('.visualizarSenha');
-
-
-    visualizarSenha.forEach(visualizarSenha => {
-        visualizarSenha.onclick = () => {
-    
-    visualizarSenha.forEach(visualizarSenha => {
-        visualizarSenha.onclick = () => {
-    if (campoSenha.type === 'password'){
-        visualizarSenha.innerHTML = 'visibility';
-        campoSenha.type = 'text';
-        
-    } else {
-        visualizarSenha.innerHTML = 'visibility_off';
-        campoSenha.type = 'password';
-
-    }
-}
-
-document.querySelector('.visualizarSenha').onclick = function () {
-mostraOuEsconderSenha();
-}
-
-//const indiv = document.querySelector('.form-senha').parentElement.childNodes[3].childNodes[1];visualizarSenha.parentElement.parentElement.children.type
-*/
