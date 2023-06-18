@@ -1,0 +1,100 @@
+.main {
+    margin-top: 175px;
+}
+
+.secao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerDescricao {
+    width: 250px;
+    padding: 0 5px;
+    font-size: 16;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: var(--azul);
+    text-align: center;
+    margin-bottom: 24px;
+
+}
+
+.containerDescricao h1 {
+}
+
+.container-form {
+    min-width: 312px;
+    width: 50%;
+    background: var(--cinza-nivel1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--poppins);
+    padding: 16px 16px 0 16px;
+}
+
+.container-imput {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;    
+}
+.container-imput .label {
+    color: var(--azul);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.input-text {
+    font-family: var(--poppins);
+    background-color: var(--branco);
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    box-shadow:  0px 2px 2px rgba(0, 0, 0, 0.15);
+    text-align: left;
+    padding: 0 16px;
+    font-size: 14px;
+    margin-top: 8px;
+
+}
+
+.input-textarea {
+    border: none;
+    border-radius: 6px;
+    background-color: var(--branco);
+    box-shadow:  0px 2px 2px rgba(0, 0, 0, 0.15);
+    padding: 16px 16px 0 16px;
+    font-family: var(--poppins);
+    margin-top: 16px;
+
+}
+.input-text, .input-textarea {
+    min-width: 280px;
+}
+
+.input-enviar {
+    display: flex;
+    justify-content: space-around;
+    border: none;
+    margin: 32px auto;
+}
+
+
+
+
+@media screen and (min-width: 320px) {
+
+}
+
+@media screen and (min-width: 360px) {
+
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 1440px) {
+
+}

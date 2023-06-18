@@ -1,0 +1,171 @@
+.cabecalho {
+    background: url(../../../img/ilustracao/Forma_1.svg) no-repeat top left / 317.11px;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    position: fixed;
+    width: 100%;
+    height: 307px;
+}
+
+.cabecalho>.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 35px;
+    justify-content: flex-start;
+}
+
+.cabecalho__container-icone {
+    display:flex;
+}
+
+.cabecalho__container-icone--logo {
+    display: none;
+}
+
+.cabecalho__logo {
+}
+
+.cabecalho__container-icone--casa {
+    margin-left: 50px;
+}
+
+.cabecalho__casa {
+    width: 19.2px;
+    height: 23px;
+}
+
+.cabecalho__container-icone--mensagens {
+    margin-left: 58.6px;
+}
+
+.cabecalho__mensagens {
+    width: 23.14px;
+    height: 18.86px;
+}
+
+
+.cabecalho__container-icone--usuario {      
+    margin-left: 97px;
+}
+
+.cabecalho__icone-usuario {
+    width: 40px;
+    height: 40px;
+}
+
+/*mobile*/
+@media screen and (min-width: 320px) {
+
+}
+
+@media screen and (min-width: 360px) {
+    .cabecalho {
+        background: url(../../../img/ilustracao/Forma_1.svg) no-repeat top left / 352.11px;
+    }
+    .cabecalho__container-icone--usuario {      
+        margin-left: 133px;
+    }
+}
+
+@media screen and (min-width: 475px) {
+    .cabecalho>.container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding-top: 35px;
+        justify-content:unset;
+    }
+
+    .cabecalho__container-icone--mensagens {
+        flex-grow: 10;
+   }
+
+   .cabecalho__container-icone--usuario {      
+        flex-grow: 1;
+}
+}
+
+/*tablet*/
+@media screen and (min-width: 768px) {
+    body {
+        background: url(../../../img/ilustracao/Forma_1.svg) no-repeat top left / 559.8px;
+
+    }
+    .cabecalho {
+        background: initial;
+        height: 469px;
+        position: initial;
+        height: 120px;
+
+    }
+
+    .cabecalho>.container {
+        padding-top: 50px;
+    }
+    
+
+    /*
+    .cabecalho__container-icone{
+        margin: 0 0 0 0;
+    }
+*/
+    
+    .cabecalho__container-icone--logo{
+        display: block;
+        margin-left: 48px;
+    }
+
+    .cabecalho__logo {
+        width: 128px;
+        height: 30.86px;
+    }
+
+    /*
+    .cabecalho__container-icone--casa{
+        margin-top: 67px;
+        margin-left: 65px;
+
+    }
+
+    .cabecalho__container-icone--mensagens{
+        margin-top: 70px;
+        margin-left: 68.8px;
+    }
+    */
+    .cabecalho__container-icone--usuario {}
+
+    .cabecalho__icone-usuario {
+        width: 56px;
+        height: 56px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        background: url(../../../img/ilustracao/Forma_1.svg) no-repeat top left / 559.8px,
+                    url(../../../img/ilustracao/Forma_2.png) no-repeat right 250px / 134.44960021972656px 764px;
+
+    }
+
+    .cabecalho__container-icone--logo{
+        display: block;
+        margin-left: 125px;
+    }
+
+    /* .cabecalho__container-icone--logo {
+        margin-left: 160px;
+    }
+
+    .cabecalho__container-icone--casa {
+        margin-top: 63px;
+        margin-left: 48px;
+
+    }
+
+    .cabecalho__container-icone--mensagens {
+        margin-top: 67px;
+        margin-left: 32.8px;
+    } */
+}
