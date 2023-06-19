@@ -1,5 +1,6 @@
 .main {
     margin-top: 175px;
+    margin-bottom: 50px;
 }
 
 .secao {
@@ -24,8 +25,9 @@
 }
 
 .container-form {
-    min-width: 312px;
     width: 50%;
+    min-width: 312px;
+    max-width: 492px;
     background: var(--cinza-nivel1);
     border-radius: 10px;
     display: flex;
