@@ -1,6 +1,6 @@
 .main {
     margin-top: 175px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .secao {
@@ -10,7 +10,10 @@
 }
 
 .containerDescricao {
-    width: 250px;
+    display: flex;
+    width: calc(50% + 32px);   /*width: 250px; */
+    min-width: 226px;
+    max-width: 524px;
     padding: 0 5px;
     font-size: 16;
     font-weight: 400;
@@ -19,9 +22,6 @@
     text-align: center;
     margin-bottom: 24px;
 
-}
-
-.containerDescricao h1 {
 }
 
 .container-form {
@@ -96,7 +96,6 @@
 @media screen and (min-width: 768px) {
 
 }
-
 @media screen and (min-width: 1440px) {
 
 }
