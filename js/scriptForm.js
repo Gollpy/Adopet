@@ -27,6 +27,4 @@ function mostraEsconderSenha () {
 //         })
 //     })
 // }
-
-// janelaRecuperarSenha();
 mostraEsconderSenha();
