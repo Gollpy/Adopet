@@ -36,15 +36,50 @@
     padding: 16px 16px 0 16px;
 }
 
+
 .container-imput {
     display: flex;
     flex-direction: column;
     margin-top: 16px;    
 }
+
+.container-imput--tilulo {
+    margin-top: 32px;
+    margin-bottom: 16px;
+    align-items: center;
+}
+
+.titulo-formulario {
+    font-family: var(--poppins);
+    font-weight: 600;
+    color: var(--cinza-nivel3);
+    font-size: 21px;
+}
 .container-imput .label {
     color: var(--azul);
     font-weight: 600;
     font-size: 16px;
+}
+.container-foto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.foto-perfil {
+    width: 80px;
+    border-radius:50%;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.trocar-imagen-perfil {
+    font-weight: 400;
+    font-size: 12px;
+    cursor: pointer;
+    color: var(--vermelho-coral);
 }
 
 .input-text {

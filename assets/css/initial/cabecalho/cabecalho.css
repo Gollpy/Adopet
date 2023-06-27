@@ -71,7 +71,7 @@
 
 @media screen and (min-width: 1440px) {
     .cabecalho__container-icone--logo{
-        margin-left: 160px;
+        margin-left: 130px;
     }
 
     .cabecalho__container-icone--casa{
@@ -82,6 +82,6 @@
 
     .cabecalho__container-icone--mensagens{
         margin-top: 67px;
-        margin-left: 32.8px;
+        margin-left: 45px;
     }
 }
