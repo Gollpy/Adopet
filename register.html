@@ -54,15 +54,21 @@
 
                     <div class="continer-form">
                         <form action="">
-                            <div class="container-email">
+                            <div class="container-email container-input">
                                 <label class="form-etiqueta" for="email">Email</label>
                                 <input class="form-email campoDeTexto" type="email" id="email" placeholder="Escolha seu melhor email" required>
+                                <div class="container-mensagemError"> <!-- copiar trecho de código para a página de login -->
+                                    <p class="mensagemError">invalido</p>
+                                </div>
                             </div>
-                            <div class="container-email"> <!-- area para o nome de usuário -->
+                            <div class="container-nome container-input">
                                 <label class="form-etiqueta" for="name">nome</label>
                                 <input class="form-email campoDeTexto" type="text" id="name" placeholder="Digite seu nome completo" required>
+                                <div class="container-mensagemError">
+                                    <p class="mensagemError">invalido</p>
+                                </div>
                             </div>
-                            <div class="container-senha">
+                            <div class="container-senha container-input">
                                 <label class="form-etiqueta" for="password">Senha</label>
                                 <div class="container">
                                     <input class="form-senha campoDeTexto" type="password" id="password" autocomplete="" placeholder="Crie uma senha" required>
@@ -72,8 +78,11 @@
                                         </span>
                                     </div>
                                 </div>
+                                <div class="container-mensagemError">
+                                    <p class="mensagemError">invalido</p>
+                                </div>
                             </div>
-                            <div class="container-senha"><!-- area para a confirmar a senha de usuário -->
+                            <div class="container-senha container-input"><!-- area para a confirmar a senha de usuário -->
                                 <label class="form-etiqueta" for="password-Confirm">Confirma sua senha</label>
                                 <div class="container">
                                     <input class="form-senha campoDeTexto" type="password" id="password-Confirm" autocomplete="" placeholder="Repita a senha criada acima" required>
@@ -82,6 +91,9 @@
                                             visibility_off
                                         </span>
                                     </div>
+                                </div>
+                                <div class="container-mensagemError">
+                                    <p class="mensagemError">invalido</p>
                                 </div>
                             </div>
                             <div class="container-botao">
