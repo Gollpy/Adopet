@@ -1,14 +1,7 @@
 .continer-form{
     text-align: center;
-    font-family: var(--poppins);
+    /* font-family: var(--poppins); */
 }
-
-
-/* .container-email, .container-senha{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-} */
 
 .container-input {
     margin-bottom: 16px;
@@ -26,9 +19,6 @@
     font-size: var(--tamanho-da-fonte-nivel1);
 }
 
-/* .container-email{
-} */
-
 .campoDeTexto{
     background-color: var(--cinza-nivel1);
     height: 40px;
@@ -39,7 +29,16 @@
 }
 
 .container-mensagemError {
-height: 20px;
+    height: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+.container-mensagemError > .container{
+    position: absolute;
+    left: -196px;
+    width: 397px;
 }
 
 .mensagemError {
@@ -48,10 +47,16 @@ height: 20px;
     font-size: 15px;
 }
 
-/* .container-senha{
-} */
+.form-etiqueta, .campoDeTexto, .mensagemError{
+    font-family: var(--poppins);
 
-.container-senha .container{
+}
+
+.container-input > .container{
+    display: contents;
+}
+
+.container-senha > .container > .container{
     display: grid;
     justify-items: end;
     align-items: center;
