@@ -32,6 +32,10 @@ const mensagensDeErro = {
         valueMissing: 'O campo confirmar senha não pode estar vazio.'
     }};
 
+    function validadores(){
+
+    }
+
 function mostraMensagemDeErro(tipoDeInput, input) {
     let mensagem = ''
     tiposDeErro.forEach(erro => {
@@ -41,3 +45,13 @@ function mostraMensagemDeErro(tipoDeInput, input) {
     })
     return mensagem
 }
+
+// function comparasenha (input){
+//         const senha = input.value;
+//         const confirmarSenha = input.value;
+//         if(senha = confirmarSenha){
+//             return true
+//         } else {
+//             return false
+//         }
+// }
