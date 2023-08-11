@@ -42,7 +42,7 @@ function mostraEsconderSenha() {
                 }
 
                 const mensagemError = confirmarSenha.parentElement.querySelector('.mensagemError')
-                if (compara) {
+                if (compara()) {
                     console.log('tudo certo. A senha é igual')
                     mensagemError.innerHTML = 'tudo certo. A senha é igual.'
                 } else {
@@ -50,7 +50,7 @@ function mostraEsconderSenha() {
                     mensagemError.innerHTML = 'opa! a senha não é igual.'
                 }
 
-                console.log(compara)
+                console.log(compara())
         }
     }
 
