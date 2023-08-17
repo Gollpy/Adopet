@@ -54,16 +54,7 @@ function mostraEsconderSenha() {
 //     }
 // }
 
-<<<<<<< HEAD
+
 // confirmarSenha.addEventListener('keyup', fun, 'useCapture')
 // confirmarSenha.addEventListener('click', fun, 'useCapture')
 //-------------------------------------------------------------------//
-=======
-                console.log(compara())
-        }
-    }
-
-    confirmarSenha.addEventListener('keyup', evento , 'useCapture')
-    confirmarSenha.addEventListener('focus', evento , 'useCapture')
-//-------------------------------------------------------------------//
->>>>>>> cd8b82079c269d6f0b70a8668ac811789466eed3
