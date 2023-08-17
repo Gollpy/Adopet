@@ -13,7 +13,7 @@ function mostraEsconderSenha() {
             }
             
         }
-    })};
+    })  };
     mostraEsconderSenha()
 
     // inputs.addEventListener('blur', (evento) => {
@@ -28,32 +28,32 @@ function mostraEsconderSenha() {
 
 //------------------------------------------------------------------//
 /*adaptar trecho do código para o script que valida o cadastro */
-    const confirmarSenha = document.querySelector("#passwordConfirm")
-    const senha = document.querySelector("#password")
+// const confirmarSenha = document.querySelector("#passwordConfirm")
+// const senha = document.querySelector("#password")
 
-    const evento = evento => {
-            if (confirmarSenha.value != '') {
-                function compara() {
-                    if(confirmarSenha.value === senha.value){
-                        return true
-                    } else {
-                        return false
-                    }
-                }
+// const fun = (fun) => {
+//     if (!senha.value.valueMissing) {
+//         function compara() {
+//             if(confirmarSenha.value === senha.value){
+//                 return true
+//             } else {
+//                 return false
+//             }
+//         }
+    
+//         const mensagemError = confirmarSenha.parentElement.querySelector('.mensagemError')
+//         if (compara()) {
+//             console.log('tudo certo. A senha é igual')
+//             mensagemError.innerHTML = 'tudo certo. A senha é igual.'
+//         } else {
+//             console.log('opa! a senha não é igual')
+//             mensagemError.innerHTML = 'opa! a senha não é igual.'
+//         }
 
-                const mensagemError = confirmarSenha.parentElement.querySelector('.mensagemError')
-                if (compara()) {
-                    console.log('tudo certo. A senha é igual')
-                    mensagemError.innerHTML = 'tudo certo. A senha é igual.'
-                } else {
-                    console.log('opa! a senha não é igual')
-                    mensagemError.innerHTML = 'opa! a senha não é igual.'
-                }
+//         console.log(compara())
+//     }
+// }
 
-                console.log(compara())
-        }
-    }
-
-    confirmarSenha.addEventListener('keyup', evento , 'useCapture')
-    confirmarSenha.addEventListener('focus', evento , 'useCapture')
+// confirmarSenha.addEventListener('keyup', fun, 'useCapture')
+// confirmarSenha.addEventListener('click', fun, 'useCapture')
 //-------------------------------------------------------------------//
