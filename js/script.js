@@ -1,60 +1,29 @@
 import { valida } from './validacaoForm.js'
 function mostraEsconderSenha() {
     const campoSenha = document.querySelectorAll('.form-senha');
+
     campoSenha.forEach( Element => {
-        const vs = Element.nextElementSibling.querySelector('.visualizarSenha');
-        vs.onclick = () => {
+        const vs = Element.nextElementSibling
+        vs.addEventListener('click', () => {
             if (Element.type === 'password'){
-                vs.innerHTML = 'visibility';
+                vs.querySelector('.visibility_on').style.display = 'initial'
+                vs.querySelector('.visibility_off').style.display = 'none'
                 Element.type = 'text';
             } else {
-                vs.innerHTML = 'visibility_off';
+                vs.querySelector('.visibility_on').style.display = 'none'
+                vs.querySelector('.visibility_off').style.display = 'initial'
                 Element.type = 'password';
             }
-            
-        }
-    })  };
-    mostraEsconderSenha()
+    })})
+}
 
-    // inputs.addEventListener('blur', (evento) => {
-        //     valida(evento.target)})
-        
-    const inputs = document.querySelectorAll('input')
-    inputs.forEach( input => {
-        input.addEventListener('blur', (evento) => {
-            valida(evento.target)
-        })
-    })
+const inputs = document.querySelectorAll('input')
+const funDoEvento = (evento) => {valida(evento.target)}
 
-//------------------------------------------------------------------//
-/*adaptar trecho do código para o script que valida o cadastro */
-// const confirmarSenha = document.querySelector("#passwordConfirm")
-// const senha = document.querySelector("#password")
+inputs.forEach( input => {
+    input.addEventListener('blur', funDoEvento)
+    input.addEventListener('keyup', funDoEvento)
+})
 
-// const fun = (fun) => {
-//     if (!senha.value.valueMissing) {
-//         function compara() {
-//             if(confirmarSenha.value === senha.value){
-//                 return true
-//             } else {
-//                 return false
-//             }
-//         }
-    
-//         const mensagemError = confirmarSenha.parentElement.querySelector('.mensagemError')
-//         if (compara()) {
-//             console.log('tudo certo. A senha é igual')
-//             mensagemError.innerHTML = 'tudo certo. A senha é igual.'
-//         } else {
-//             console.log('opa! a senha não é igual')
-//             mensagemError.innerHTML = 'opa! a senha não é igual.'
-//         }
+mostraEsconderSenha()
 
-//         console.log(compara())
-//     }
-// }
-
-
-// confirmarSenha.addEventListener('keyup', fun, 'useCapture')
-// confirmarSenha.addEventListener('click', fun, 'useCapture')
-//-------------------------------------------------------------------//

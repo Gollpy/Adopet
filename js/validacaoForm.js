@@ -13,8 +13,7 @@ console.log(input.validity.valid)
         console.debug(mostraMensagemDeErro(tipoDeInput, input))
     }
 }
-// .remove('mensagemError')
-// .add('mensagemError')
+
 const tiposDeErro = [
     'valueMissing',
     'typeMismatch',
@@ -35,7 +34,7 @@ const mensagensDeErro = {
         patternMismatch: 'A senha deve conter entre 6 a 12 caracteres, deve conter pelo menos uma letra maiúscula, um número e não deve conter símbolos.'
     },
     passwordConfirm: {
-        customError: /* 'A senha não é igual.' */  'A senha não é igual.',
+        customError:'A senha não é igual.',
         patternMismatch:'',
         valueMissing: 'O campo confirmar senha não pode estar vazio.'
     }}
@@ -45,40 +44,35 @@ const validadores = {
 }
 
 function mostraMensagemDeErro(tipoDeInput, input) {
-    // const confirmar = $('[data-tipo=passwordConfirm]')
     let mensagem = ''
-    
+
     tiposDeErro.forEach(erro => {
         if(input.validity[erro]) {
             mensagem = mensagensDeErro[tipoDeInput][erro]
         }
     })
+
     return mensagem
 }
-// const passwordConfirm = document.querySelector('[data-tipo=passwordConfirm]')
-//     if(passwordConfirm.value === input.value && !input.validity.valueMissing){
-//         mensagem = 'A senha não é igual.'
-//     }
-//     passwordConfirm.setCustomValidity(mensagem)
 
 function comparasenha (input){
-    const senha = document.querySelector('[data-tipo=password]');
+    const senha = document.querySelector('[data-tipo=password]')
     const modCorMsgErro = input.parentElement.querySelector('.mensagemError')
     const modMsgErro = mensagensDeErro.passwordConfirm
     let mensagem = ''
-    
+
     if(senha.value !== '' && input.value !== ''){
         if(input.value === senha.value){
             modCorMsgErro.style.cssText = 'color:#36d6ad;'
-            modMsgErro.customError = 'A senha é igual.'
             mensagem = 'A senha é igual.'
         } else {
             modCorMsgErro.style.cssText = 'color:FC7071;'
-            modMsgErro.customError = 'A senha não é igual.'
             mensagem = 'A senha não igual.'
         }
-
+    } else {
+        modCorMsgErro.style.cssText = 'color:FC7071;'
     }
 
+    modMsgErro.customError = mensagem
     input.setCustomValidity(mensagem)
 }

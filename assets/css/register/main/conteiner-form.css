@@ -71,27 +71,42 @@
     width: 349px;
 } */
 
-.form-senha, .container-visualizarSenha{
+.form-senha, .container-visibility{
     grid-area: 1 / 1 / 1 / 1;
 }
 
-/*  -trecho antigo-  
-.container-visualizarSenha {
-    margin-right: 16px;
-    width: 19px;
-    height: 19px;
-}
-*/
-
-.visualizarSenha{
-    line-height: 37px;
+.container-visibility {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 40px;
-    height: 35px;
-}
-.material-symbols-rounded:hover{
-    cursor: default;
+    height: 40px;
 
+    border: none;
+    background: none;
 }
+
+.container-visibility:hover{
+    cursor: pointer;
+}
+
+.visibility{
+    width: 20px;
+    height: 20px;
+}
+
+.visibility_on{
+    display: none;
+}
+
+.visibility_on, .visibility_off{
+    stroke: #999999;
+    fill: #999999;
+    stroke-width: 5;
+    opacity: 1;
+    stroke-dasharray: none;
+}
+
 /* ----trecho a ser removido----
 .link-supoteDeSenha{
     font-family: var(--poppins);
@@ -114,7 +129,7 @@
 
 @media screen and (min-width: 320px) {
     .campoDeTexto{
-        min-width: 255px;
+        min-width: 220px;
         padding-right: 35px;
         padding-left: 35px;
     }
