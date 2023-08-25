@@ -78,11 +78,12 @@
                                 <div class="container">
                                     <div class="container">
                                         <input class="form-senha campoDeTexto" type="password" name="password" id="password" data-tipo="password" pattern="^(?=.*[A-Z])(?=.*[!#@$%&])(?=.*[0-9])(?=.*[a-z]).{6,15}$" title="A senha deve conter entre 6 a 15 caracteres, deve conter pelo menos uma letra maiúscula, uma letra minúscula, um número e um caractere especial(!#@$%&)." autocomplete="off" placeholder="Crie uma senha" value="" required>
-                                        <div class="container-visualizarSenha">
-                                            <span class="visualizarSenha material-symbols-rounded">
-                                                visibility_off
-                                            </span>
-                                        </div>
+                                        <button type="button" class="container-visibility">
+                                            <svg class="visibility" xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 -960 960 960" width="48">
+                                                <path class="visibility_on" d="M480.118-330Q551-330 600.5-379.618q49.5-49.617 49.5-120.5Q650-571 600.382-620.5q-49.617-49.5-120.5-49.5Q409-670 359.5-620.382q-49.5 49.617-49.5 120.5Q310-429 359.618-379.5q49.617 49.5 120.5 49.5ZM480-404q-40 0-68-28t-28-68q0-40 28-68t68-28q40 0 68 28t28 68q0 40-28 68t-68 28Zm0 227q-154 0-278-90T17-500q61-143 185-233t278-90q154 0 278 90t185 233q-61 143-185 233t-278 90Zm0-323Zm-.08 240q120.454 0 221.267-65.5T855-500q-53-109-153.733-174.5Q600.533-740 480.08-740q-120.454 0-221.267 65.5T104-500q54 109 154.733 174.5Q359.467-260 479.92-260Z"/>
+                                                <path class="visibility_off" d="m634-432-77-76q21-44-12.5-69t-62.5-6l-70-71q15-8 33-12t35-4q71 0 120.5 49.5T650-500q0 16-4 36t-12 32Zm148 150-55-56q44-35 76.5-77t52.5-85q-52-110-150.5-175T490-740q-42 0-82 7t-59 16l-66-66q35-16 92.5-28T485-823q147 0 272 85t186 238q-25 66-67.5 121.5T782-282Zm25 227L653-207q-35 14-80 22t-93 8q-151 0-276.5-85.5T17-500q18-51 55-103t86-100L35-824l50-52 769 769-47 52ZM216-646q-36 29-66 68.5T104-500q52 111 153 175.5T488-260q27 0 55.5-3t44.5-11l-64-64q-8 4-20.5 6t-23.5 2q-70 0-120-49t-50-121q0-11 1.5-23t4.5-21L216-646Zm323 128Zm-137 69Z"/>
+                                            </svg>
+                                        </button>
                                         <div class="container-mensagemError">
                                             <div class="container">
                                                 <p class="mensagemError"></p>
@@ -96,11 +97,12 @@
                                 <div class="container">
                                     <div class="container">
                                         <input class="form-senha campoDeTexto" type="password" name="passwordConfirm" id="passwordConfirm" data-tipo="passwordConfirm" pattern="^(?=.*[A-Z])(?=.*[!#@$%&])(?=.*[0-9])(?=.*[a-z]).{6,15}$" autocomplete="off" placeholder="Repita a senha criada acima" value="" required>
-                                        <div class="container-visualizarSenha">
-                                            <span class="visualizarSenha material-symbols-rounded">
-                                                visibility_off
-                                            </span>
-                                        </div>
+                                        <button type="button" class="container-visibility">
+                                            <svg class="visibility" xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 -960 960 960" width="48">
+                                                <path class="visibility_on" d="M480.118-330Q551-330 600.5-379.618q49.5-49.617 49.5-120.5Q650-571 600.382-620.5q-49.617-49.5-120.5-49.5Q409-670 359.5-620.382q-49.5 49.617-49.5 120.5Q310-429 359.618-379.5q49.617 49.5 120.5 49.5ZM480-404q-40 0-68-28t-28-68q0-40 28-68t68-28q40 0 68 28t28 68q0 40-28 68t-68 28Zm0 227q-154 0-278-90T17-500q61-143 185-233t278-90q154 0 278 90t185 233q-61 143-185 233t-278 90Zm0-323Zm-.08 240q120.454 0 221.267-65.5T855-500q-53-109-153.733-174.5Q600.533-740 480.08-740q-120.454 0-221.267 65.5T104-500q54 109 154.733 174.5Q359.467-260 479.92-260Z"/>
+                                                <path class="visibility_off" d="m634-432-77-76q21-44-12.5-69t-62.5-6l-70-71q15-8 33-12t35-4q71 0 120.5 49.5T650-500q0 16-4 36t-12 32Zm148 150-55-56q44-35 76.5-77t52.5-85q-52-110-150.5-175T490-740q-42 0-82 7t-59 16l-66-66q35-16 92.5-28T485-823q147 0 272 85t186 238q-25 66-67.5 121.5T782-282Zm25 227L653-207q-35 14-80 22t-93 8q-151 0-276.5-85.5T17-500q18-51 55-103t86-100L35-824l50-52 769 769-47 52ZM216-646q-36 29-66 68.5T104-500q52 111 153 175.5T488-260q27 0 55.5-3t44.5-11l-64-64q-8 4-20.5 6t-23.5 2q-70 0-120-49t-50-121q0-11 1.5-23t4.5-21L216-646Zm323 128Zm-137 69Z"/>
+                                            </svg>
+                                        </button>
                                         <div class="container-mensagemError">
                                             <div class="container">
                                                 <p class="mensagemError"></p>
@@ -124,6 +126,5 @@
         </div>
     </footer>
     <script type="module" src="./js/script.js"></script>
-    <script type="module" src="./js/teste.js"></script>
 </body>
 </html>
