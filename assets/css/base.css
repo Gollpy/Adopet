@@ -3,7 +3,7 @@ min-width: fit-content;
 }
 
 body{
-
+    background-color: var(--branco);
 }
 
 :root{
@@ -36,6 +36,11 @@ body{
     width: 180px;
     display: inline-block;
     text-align: center;
+}
+
+.botao_reset{
+    background: none;
+    border: none;
 }
 
 .botao:hover{
