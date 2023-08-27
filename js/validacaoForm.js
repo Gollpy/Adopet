@@ -7,9 +7,9 @@ export function valida(input) {
 console.log(input.validity.valid)
 
     if(input.validity.valid) {
-        input.parentElement.querySelector('.mensagemError').innerHTML = ''
+        input.parentElement.parentElement.querySelector('.mensagemError').innerHTML = ''
     } else {
-        input.parentElement.querySelector('.mensagemError').innerHTML = mostraMensagemDeErro(tipoDeInput, input)
+        input.parentElement.parentElement.querySelector('.mensagemError').innerHTML = mostraMensagemDeErro(tipoDeInput, input)
         console.debug(mostraMensagemDeErro(tipoDeInput, input))
     }
 }
@@ -36,7 +36,7 @@ const mensagensDeErro = {
     passwordConfirm: {
         customError:'A senha não é igual.',
         patternMismatch:'',
-        valueMissing: 'O campo confirmar senha não pode estar vazio.'
+        valueMissing: 'O campo Confirmar Senha não pode estar vazio.'
     }}
 
 const validadores = {
@@ -57,7 +57,7 @@ function mostraMensagemDeErro(tipoDeInput, input) {
 
 function comparasenha (input){
     const senha = document.querySelector('[data-tipo=password]')
-    const modCorMsgErro = input.parentElement.querySelector('.mensagemError')
+    const modCorMsgErro = input.parentElement.parentElement.querySelector('.mensagemError')
     const modMsgErro = mensagensDeErro.passwordConfirm
     let mensagem = ''
 

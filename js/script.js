@@ -4,15 +4,16 @@ function mostraEsconderSenha() {
 
     campoSenha.forEach( Element => {
         const vs = Element.nextElementSibling
-        vs.addEventListener('click', () => {
+
+        vs.addEventListener('click', (evento) => {
             if (Element.type === 'password'){
+                Element.type = 'text';
                 vs.querySelector('.visibility_on').style.display = 'initial'
                 vs.querySelector('.visibility_off').style.display = 'none'
-                Element.type = 'text';
             } else {
+                Element.type = 'password';
                 vs.querySelector('.visibility_on').style.display = 'none'
                 vs.querySelector('.visibility_off').style.display = 'initial'
-                Element.type = 'password';
             }
     })})
 }
