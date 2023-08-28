@@ -20,23 +20,22 @@ const tiposDeErro = [
     'patternMismatch',
     'customError'
 ]
-
 const mensagensDeErro = {
     name: {
-        valueMissing: 'O campo de nome não pode estar vazio.'
+        valueMissing: "O campo de nome não pode estar vazio."
     },
     email: {
-        valueMissing: 'O campo de email não pode estar vazio.',
-        typeMismatch: 'O email digitado não é válido.'
+        valueMissing: "O campo de email não pode estar vazio.",
+        typeMismatch: "O email digitado não é válido."
     },
     password: {
-        valueMissing: 'O campo de senha não pode estar vazio.',
-        patternMismatch: 'A senha deve conter entre 6 a 12 caracteres, deve conter pelo menos uma letra maiúscula, um número e não deve conter símbolos.'
+        valueMissing: "O campo de senha não pode estar vazio.",
+        patternMismatch: "A senha deve conter entre 6 a 15 caracteres, deve conter pelo menos uma letra maiúscula, uma letra minúscula, um número e um caractere especial(!#@$%&). "
     },
     passwordConfirm: {
-        customError:'A senha não é igual.',
-        patternMismatch:'',
-        valueMissing: 'O campo Confirmar Senha não pode estar vazio.'
+        customError:"A senha não corresponde.",
+        patternMismatch:"",
+        valueMissing: "O campo 'Confirmar Senha' não pode estar vazio."
     }}
 
 const validadores = {
@@ -57,20 +56,16 @@ function mostraMensagemDeErro(tipoDeInput, input) {
 
 function comparasenha (input){
     const senha = document.querySelector('[data-tipo=password]')
-    const modCorMsgErro = input.parentElement.parentElement.querySelector('.mensagemError')
+    const MsgErro = input.parentElement.parentElement.querySelector('.mensagemError')
     const modMsgErro = mensagensDeErro.passwordConfirm
     let mensagem = ''
 
     if(senha.value !== '' && input.value !== ''){
         if(input.value === senha.value){
-            modCorMsgErro.style.cssText = 'color:#36d6ad;'
-            mensagem = 'A senha é igual.'
+            mensagem = ''
         } else {
-            modCorMsgErro.style.cssText = 'color:FC7071;'
-            mensagem = 'A senha não igual.'
+            mensagem = 'A senha não corresponde.'
         }
-    } else {
-        modCorMsgErro.style.cssText = 'color:FC7071;'
     }
 
     modMsgErro.customError = mensagem

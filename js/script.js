@@ -19,12 +19,8 @@ function mostraEsconderSenha() {
 }
 
 const inputs = document.querySelectorAll('input')
-const funDoEvento = (evento) => {valida(evento.target)}
-
 inputs.forEach( input => {
-    input.addEventListener('blur', funDoEvento)
-    input.addEventListener('keyup', funDoEvento)
+    input.addEventListener('blur', (evento) => {valida(evento.target)})
 })
 
 mostraEsconderSenha()
-
