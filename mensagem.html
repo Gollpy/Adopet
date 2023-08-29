@@ -48,27 +48,39 @@
                     <h1>Envie uma mensagem para a pessoa ou instituição que está cuidando do animal:</h1>
                 </div>
                 <div class="container-form">
-                    <form action="">
-                        <div class="container-imput">
-                            <label class="label" for="">nome</label>
-                            <input class="input-text" type="text" required placeholder="Insira seu nome completo">
+                    <form class="form-mensagem-send" action="">
+                        <div class="container"> <!--aplicar o validador -->
+                            <div class="container-imput">
+                                <label class="label" for="">nome</label>
+                                <input class="input-text" type="text" data-tipo="name" id="name" placeholder="Insira seu nome completo" required>
+                                <div class="container-mensagemError">
+                                    <p class="mensagemError"></p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="container-imput">
-                            <label class="label" for="">telefone</label>
-                            <input class="input-text" type="tel" required placeholder="Insira seu telefone e/ou whatsapp">
+                        <div class="container">
+                            <div class="container-imput">
+                                <label class="label" for="">telefone</label>
+                                <input class="input-text" type="tel" data-tipo="tel" id="tel" placeholder="Insira seu telefone e/ou whatsapp" required>
+                                <div class="container-mensagemError">
+                                    <p class="mensagemError"></p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="container-imput">
-                            <label class="label" for="">nome do animal</label>
-                            <input class="input-text" type="text" required placeholder="Por qual animal você se interessou?">
+                        <div class="container">
+                            <div class="container-imput">
+                                <label class="label" for="">nome do animal</label>
+                                <input class="input-text" type="text" data-tipo="animalName" id="animalName" placeholder="Por qual animal você se interessou?" required>
+                                <div class="container-mensagemError">
+                                    <p class="mensagemError"></p>
+                                </div>
+                            </div>
                         </div>
                         <div class="container-imput">
                             <label class="label" for="">mensagem</label>
-                            <textarea class="input-textarea" required name="" id="" maxlength="999" cols="30" rows="10" placeholder="Escreva sua mensagem."></textarea>
+                            <textarea class="input-textarea" name="" id="" maxlength="999" cols="30" rows="10" id="mensagem" placeholder="Escreva sua mensagem." required></textarea>
                         </div>
                         <input class="botao input-enviar" type="submit" value="Enviar">
-                        <!-- <div class="dddd">
-                        <input class="botao input-enviar" type="submit" value="enviar">
-                        </div> -->
                     </form>
                 </div>
             </section>
@@ -81,5 +93,6 @@
             </div>
         </div>
     </footer>
+    <script type="module" src="./js/script.js"></script>
 </body>
 </html>

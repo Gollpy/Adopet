@@ -71,3 +71,4 @@ function comparasenha (input){
     modMsgErro.customError = mensagem
     input.setCustomValidity(mensagem)
 }
+ 

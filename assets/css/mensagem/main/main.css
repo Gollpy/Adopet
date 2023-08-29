@@ -36,6 +36,10 @@
     padding: 16px 16px 0 16px;
 }
 
+.form-mensagem-send > .container{
+    display: contents;
+}
+
 .container-imput {
     display: flex;
     flex-direction: column;
@@ -71,6 +75,22 @@
     margin-top: 16px;
 
 }
+
+.container-mensagemError {
+    width: auto;
+    max-width: 397px;
+    margin: 0 19px;
+}
+
+.mensagemError {
+    line-height: 14.5px;
+    color: var(--vermelho-coral);
+    font-size: 15px;
+    text-align: left;
+    margin-top: 5px;
+}
+
+
 .input-text, .input-textarea {
     min-width: 248px;
 }

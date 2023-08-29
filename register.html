@@ -54,10 +54,10 @@
                     </div>
 
                     <div class="continer-form">
-                        <form action="">
+                        <form class="form-rester" action="">
                             <div class="container-email container-input">
-                                <label class="form-etiqueta" for="email">Email</label>
-                                <div class="container"><!--CORRIGIR: div interferindo no tamanho do input-->
+                                <label class="label" for="email">Email</label>
+                                <div class="container">
                                     <input class="form-email campoDeTexto" type="email" name="email" id="email" data-tipo="email" placeholder="Escolha seu melhor email" required>
                                     <div class="container-mensagemError">
                                         <p class="mensagemError"></p>
@@ -65,8 +65,8 @@
                                 </div>
                             </div>
                             <div class="container-nome container-input">
-                                <label class="form-etiqueta" for="name">nome</label>
-                                <div class="container"><!--CORRIGIR: div interferindo no tamanho do input-->
+                                <label class="label" for="name">nome</label>
+                                <div class="container">
                                     <input class="form-email campoDeTexto" type="text" name="name" id="name" data-tipo="name" placeholder="Digite seu nome completo" required>
                                     <div class="container-mensagemError">
                                         <p class="mensagemError"></p>
@@ -74,7 +74,7 @@
                                 </div>
                             </div>
                             <div class="container-senha container-input">
-                                <label class="form-etiqueta" for="password">Senha</label>
+                                <label class="label" for="password">Senha</label>
                                 <div class="container">
                                     <div class="container">
                                         <input class="form-senha campoDeTexto" type="password" name="password" id="password" data-tipo="password" pattern="^(?=.*[A-Z])(?=.*[!#@$%&])(?=.*[0-9])(?=.*[a-z]).{6,15}$" title="A senha deve conter entre 6 a 15 caracteres, deve conter pelo menos uma letra maiúscula, uma letra minúscula, um número e um caractere especial(!#@$%&)." autocomplete="off" placeholder="Crie uma senha" value="" required>
@@ -91,7 +91,7 @@
                                 </div>
                             </div>
                             <div class="container-senha container-input">
-                                <label class="form-etiqueta" for="password-Confirm">Confirma sua senha</label>
+                                <label class="label" for="password-Confirm">Confirma sua senha</label>
                                 <div class="container">
                                     <div class="container">
                                         <input class="form-senha campoDeTexto" type="password" name="passwordConfirm" id="passwordConfirm" data-tipo="passwordConfirm" pattern="^(?=.*[A-Z])(?=.*[!#@$%&])(?=.*[0-9])(?=.*[a-z]).{6,15}$" autocomplete="off" placeholder="Repita a senha criada acima" required>

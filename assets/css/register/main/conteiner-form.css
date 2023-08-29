@@ -10,7 +10,7 @@
     align-items: center;
 }
 
-.form-etiqueta{
+.label{
     text-align: center;
     color: var(--cinza-nivel3);
     margin-bottom: 4px;
@@ -40,7 +40,7 @@
     margin-top: 5px;
 }
 
-.form-etiqueta, .campoDeTexto, .mensagemError{
+.label, .campoDeTexto, .mensagemError{
     font-family: var(--poppins);
 
 }
@@ -133,7 +133,7 @@
 }
 
 @media screen and (min-width: 768px) {
-    .form-etiqueta{
+    .label{
         margin-bottom: 8px;
         font-size: var(--tamanho-da-fonte-nivel2);
     }
