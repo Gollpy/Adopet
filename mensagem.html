@@ -61,7 +61,7 @@
                         <div class="container">
                             <div class="container-imput">
                                 <label class="label" for="">telefone</label>
-                                <input class="input-text" type="tel" data-tipo="tel" id="tel" placeholder="Insira seu telefone e/ou whatsapp" required>
+                                <input class="input-text" type="tel" data-tipo="tel" id="tel" pattern="([\d]{2})(?:-?)([\d]{5})(?:-?)([\d]{4})" placeholder="Insira seu telefone e/ou whatsapp" maxlength="15" value="" required>
                                 <div class="container-mensagemError">
                                     <p class="mensagemError"></p>
                                 </div>
@@ -94,5 +94,9 @@
         </div>
     </footer>
     <script type="module" src="./js/script.js"></script>
+    <script type="module" src="./js/inputMask.js"></script>
+    <!-- <script src="https://github.com/brunobertolini/remask.git"></script> -->
 </body>
 </html>
+
+<!-- https://github.com/brunobertolini/remask#install -->

@@ -36,6 +36,12 @@ const mensagensDeErro = {
         customError:"A senha não corresponde.",
         patternMismatch:"",
         valueMissing: "O campo 'Confirmar Senha' não pode estar vazio."
+    },
+    tel: {
+        valueMissing: "insira um numero de telefone ou WhatSapp."
+    },
+    animalName: {
+        valueMissing: "coloque o nome do pet que deseja adotar."
     }}
 
 const validadores = {
